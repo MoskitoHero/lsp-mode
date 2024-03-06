@@ -845,6 +845,15 @@
     "debugger": "Not available"
   },
   {
+    "name": "standard-ruby",
+    "full-name": "Ruby (Standard Ruby)",
+    "server-name": "standardrb",
+    "server-url": "https://github.com/standardrb/standard",
+    "installation-url": "https://github.com/standardrb/standard?tab=readme-ov-file#install",
+    "installation": "gem install standard",
+    "debugger": "Not available"
+  },
+  {
     "name": "robot",
     "full-name": "robot framework",
     "server-name": "rf-intellisense",

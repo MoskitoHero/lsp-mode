@@ -40,6 +40,12 @@
   :group 'lsp-standard-ruby
   :package-version '(lsp-mode . "8.0.1"))
 
+(defcustom lsp-standard-ruby-as-add-on t
+  "Run standard ruby LSP server alongside other LSP server(s)"
+  :type 'boolean
+  :group 'lsp-standard-ruby
+  :package-version '(lsp-mode . "8.0.0"))
+
 (defcustom lsp-standard-ruby-server-path nil
   "Path of the Standard Ruby built-in language server executable.
 If specified, `lsp-standard-ruby-use-bundler' is ignored."
@@ -55,6 +61,7 @@ If specified, `lsp-standard-ruby-use-bundler' is ignored."
 
 (lsp-register-client
  (make-lsp-client
+  :add-on? lsp-standard-ruby-as-add-on
   :new-connection (lsp-stdio-connection #'lsp-standard-ruby--build-command)
   :activation-fn (lsp-activate-on "ruby")
   :priority -1
