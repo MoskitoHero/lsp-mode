@@ -186,7 +186,7 @@ As defined by the Language Server Protocol 3.16."
      lsp-perlnavigator lsp-pls lsp-php lsp-pwsh lsp-pyls lsp-pylsp lsp-pyright
      lsp-python-ms lsp-purescript lsp-r lsp-racket lsp-remark lsp-ruff-lsp lsp-rf
      lsp-rubocop lsp-rust lsp-semgrep lsp-shader lsp-solargraph lsp-sorbet
-     lsp-sourcekit lsp-sonarlint lsp-tailwindcss lsp-tex lsp-terraform lsp-toml
+     lsp-sourcekit lsp-sonarlint lsp-standard-ruby lsp-tailwindcss lsp-tex lsp-terraform lsp-toml
      lsp-ttcn3 lsp-typeprof lsp-v lsp-vala lsp-verilog lsp-vetur lsp-volar
      lsp-vhdl lsp-vimscript lsp-xml lsp-yaml lsp-ruby-lsp lsp-ruby-syntax-tree
      lsp-solidity lsp-sqls lsp-svelte lsp-steep lsp-tilt lsp-zig lsp-jq)

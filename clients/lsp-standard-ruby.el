@@ -64,7 +64,6 @@ If specified, `lsp-standard-ruby-use-bundler' is ignored."
   :add-on? lsp-standard-ruby-as-add-on
   :new-connection (lsp-stdio-connection #'lsp-standard-ruby--build-command)
   :activation-fn (lsp-activate-on "ruby")
-  :priority -1
   :server-id 'standard-ruby-ls))
 
 (lsp-consistency-check lsp-standard-ruby)
